@@ -19,8 +19,10 @@ body{
 	margin: 0;
 	/*align-items: center;*/
 	position: fixed;
-	left: 10.3125rem; /*16.5rem;*/
-	right: 10.3125rem; /*16.5rem;*/
+	left: 0;
+	right: 0;
+	padding-left: 10.3125rem; /*16.5rem;*/
+	padding-right: 10.3125rem; /*16.5rem;*/
 }
 
 .logo{
@@ -56,14 +58,37 @@ body{
 	margin-left: 0;
 }*/
 
+.btnArrondis{
+	border: 1px solid;
+	border-radius: 4rem;
+	border-color: #FFFFFF;
+	padding: 1rem 1.5rem;
+	font-family: sans-serif;
+	font-weight: 800;
+	margin-right: 0.5rem;
+}
+
+.btnArrondis a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+.btnBlanc{
+	background-color: #FFFFFF;
+}
+
+.btnBlanc a{
+	color: #33BB9B;
+}
+
 .partie1{
 	background-color: #33BB9B;
-	padding-top: 15rem;
+	padding-top: 12rem;
 }
 
 .titre1{
 	color: #FFFFFF;
-	font-size: 2.75rem;
+	font-size: 2rem;
 	font-family: sans-serif;
 	font-weight: 800;
 }
@@ -77,10 +102,19 @@ body{
 	color: #FFFFFF;
 	font-size: 1.125rem;
 	font-weight: 400;
+	margin-bottom: 4rem;
 }
 
 .logoMarques{
-	width: 95px;
+	margin-top: 4rem;
+	width: 70px;
+	margin-bottom: 12rem;
+	opacity: 0.5;
+}
+
+.groupeLogoMarques{
+	display: flex;
+	justify-content: space-between;
 }
 
 .partie1 > .droite{
@@ -90,6 +124,7 @@ body{
 
 .partie1 > .droite > img{
 	max-width: 100%;
+	display: flex;
 }
 
 .partie2{
@@ -115,9 +150,5 @@ body{
 
 }
 .partie9{
-
-}
-
-.partie{
 
 }
